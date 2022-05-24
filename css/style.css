@@ -743,6 +743,10 @@ h3.my-profession{
 }
 
 @media (max-width:991px){
+    .section{
+        padding: 0 10px;
+    }
+
     .contact .contact-info-item,
     .portfolio .portfolio-item,
     .service .service-item{
@@ -756,16 +760,6 @@ h3.my-profession{
     .home .home-info{
         flex: 0 0 100%;
         max-width: 100%;
-    }
-
-    .shortScreenView{
-        display: block!important;
-        margin-bottom: 30px;
-    }
-
-    .shortScreenView img{
-        width: 250px;
-        height: 250px!important;
     }
 
     .home .home-img{
@@ -790,32 +784,6 @@ h3.my-profession{
     .about .about-content .personal-info{
         flex: 0 0 100%;
         max-width: 100%;
-    }
-
-    .home .home-img::before{
-        left: -24px;
-    }
-
-    .home .home-img::after{
-        right: -20px;
-    }
-
-}
-
-@media (max-width:600px){
-    .home .home-img::before{
-        left: -31px;
-    }
-
-    .home .home-img::after{
-        right: -80px;
-    }
-
-}
-
-@media (max-width:500px){
-    .home .home-img::after{
-        right: -118px;
     }
 
 }
