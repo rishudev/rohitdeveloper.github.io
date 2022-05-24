@@ -43,8 +43,8 @@ ul{
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    padding: 0 20px!important;
-    padding-bottom: 50px!important;
+    padding: 0 50px;
+    padding-bottom: 30px;
     opacity: 1;
     position: fixed;
     left: 270px;
@@ -745,7 +745,8 @@ h3.my-profession{
 
 @media (max-width:991px){
     .section{
-        padding: 0 10px;
+        padding: 0 20px;
+        padding-bottom: 30px;
     }
 
     .contact .contact-info-item,
