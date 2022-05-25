@@ -786,4 +786,8 @@ h3.my-profession{
         max-width: 100%;
     }
 
+    .about .about-content .about-text{
+        text-align: center;
+    }
+
 }
