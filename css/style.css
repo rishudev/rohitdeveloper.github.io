@@ -43,7 +43,7 @@ ul{
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    padding: 0 50px;
+    padding: 0 20px;
     padding-bottom: 30px;
     opacity: 1;
     position: fixed;
@@ -93,7 +93,6 @@ ul{
 
 .section .container{
     padding-top: 60px;
-    padding-bottom: 70px;
 }
 
 .section-title{
@@ -133,7 +132,6 @@ ul{
 .row{
     display: flex;
     flex-wrap: wrap;
-    margin-right: 15px;
     position: relative;
 }
 
